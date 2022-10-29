@@ -1,3 +1,6 @@
+//npm install react-script to install script
+//npm start to run
+//route files here
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
@@ -72,6 +75,7 @@ const App = () => {
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
+
 
                 {/* apps  */}
                 <Route path="/kanban" element={<Kanban />} />
